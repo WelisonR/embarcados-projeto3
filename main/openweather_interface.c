@@ -34,6 +34,6 @@ void display_weather_data(struct weather_data weather)
     printf(" - Temperatura atual: %.2lf ºC\n", weather.current_temperature);
     printf(" - Temperatura mínima prevista: %.2lf ºC\n", weather.min_temperature);
     printf(" - Temperatura máxima prevista: %.2lf ºC\n", weather.max_temperature);
-    printf(" - Humidade: %.2lf %%\n", weather.humidity);
+    printf(" - Umidade: %.2lf %%\n", weather.humidity);
     printf("*******************************************\n\n");
 }

@@ -17,7 +17,7 @@
 #define WIFI_MAXIMUM_RETRY CONFIG_ESP_MAXIMUM_RETRY
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT BIT1
-#define TAG "Wifi"
+#define TAG "WIFI"
 
 static EventGroupHandle_t wifi_event_group;
 static int retry_count = 0;
