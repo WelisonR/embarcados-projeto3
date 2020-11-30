@@ -60,6 +60,13 @@ static void event_handler(void *arg, esp_event_base_t event_base,
 
 void wifi_start()
 {
+    if (strlen(WIFI_SSID) == 0 || strlen(WIFI_PASSWORD) == 0)
+    {
+        ESP_LOGE(TAG, "Configurações da rede wifi não definidas.");
+        ESP_LOGI(TAG, "Digite 'idf.py menuconfig' e configure o nome e a senha da rede wifi.");
+        return;
+    }
+
     wifi_event_group = xEventGroupCreate();
 
     ESP_ERROR_CHECK(esp_netif_init());
