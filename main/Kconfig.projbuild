@@ -1,5 +1,4 @@
-menu "Configuração de variáveis do Projeto 03"
-
+menu "Configuração de rede wireless"
     config ESP_WIFI_SSID
         string "WiFi SSID"
         default "ssid"
@@ -17,4 +16,18 @@ menu "Configuração de variáveis do Projeto 03"
         default 5
         help
             Configure o valor máximo de tentativas de conexão.
+endmenu
+
+menu "Configuração de chaves de acesso"
+    config ESP_IPSTACK_KEY
+        string "Chave de acesso ao serviço ipstack.com"
+        default "ipstack_key"
+        help
+            Configure a chave de acesso ao serviço ipstack.com.
+    
+    config ESP_OPENWEATHER_KEY
+        string "Chave de acesso ao serviço openweather.com"
+        default "openweather_key"
+        help
+            Configure a chave de acesso ao serviço openweather.com.
 endmenu
