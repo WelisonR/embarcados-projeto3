@@ -1,7 +1,7 @@
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "cJSON.h"
-#include "ipstack_interface.h"
+#include "include/ipstack_interface.h"
 
 #define IPSTACK_KEY CONFIG_ESP_IPSTACK_KEY
 
