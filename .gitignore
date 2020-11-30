@@ -89,6 +89,6 @@ build
 # lock files for examples and components
 dependencies.lock
 
-# sdkconfigs
+# sdkconfigs (sensitive data)
 sdkconfig
 sdkconfig.old

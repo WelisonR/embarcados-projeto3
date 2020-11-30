@@ -1,7 +1,7 @@
 #include "esp_event.h"
 #include "nvs_flash.h"
 
-#include "nvs_manager.h"
+#include "include/nvs_manager.h"
 
 
 void initialize_nvs_system()

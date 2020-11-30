@@ -18,7 +18,6 @@
 
 xSemaphoreHandle wifi_semaphore;
 xSemaphoreHandle led_semaphore;
-
 char *http_response;
 int http_response_size;
 char request_url[256];

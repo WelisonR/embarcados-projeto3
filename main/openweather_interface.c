@@ -1,6 +1,7 @@
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "cJSON.h"
+
 #include "include/openweather_interface.h"
 
 #define OPENWEATHER_KEY CONFIG_ESP_OPENWEATHER_KEY

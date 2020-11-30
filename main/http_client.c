@@ -1,9 +1,8 @@
-#include "include/http_client.h"
-
+#include <string.h>
 #include "esp_event.h"
 #include "esp_log.h"
-#include <string.h>
 
+#include "include/http_client.h"
 
 #define TAG "HTTP"
 #define BLOCK_SIZE 2048

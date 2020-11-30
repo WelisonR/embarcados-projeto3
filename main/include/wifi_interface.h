@@ -1,7 +1,7 @@
-#ifndef WIFI_H
-#define WIFI_H
+#ifndef WIFI_INTERFACE_H
+#define WIFI_INTERFACE_H
 
 void wifi_start();
 void wifi_stop();
 
-#endif
+#endif /* WIFI_INTERFACE_H */
